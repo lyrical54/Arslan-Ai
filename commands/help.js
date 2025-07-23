@@ -4,22 +4,17 @@ const path = require('path');
 
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
-╭━━━〔 🤖 *ARSLAN-AI* 〕━━━╮
-┃ 💠 *Bot Name:* ${settings.botName || 'Arslan-Ai'}
+╭━━━〔 🤖 *lyrical-xmd* 〕━━━╮
+┃ 💠 *Bot Name:* ${settings.botName || 'lyrical-xmd'}
 ┃ 🔖 *Version:* ${settings.version || '2.0.5'}
-┃ 👑 *Owner:* ${settings.botOwner || 'ArslanMD Official'}
+┃ 👑 *Owner:* ${settings.botOwner || 'lyricalxdOfficial'}
 ┃ 📺 *YouTube:* ${global.ytch || 'Not set'}
 ╰━━━━━━━━━━━━━━╯
-
-🔥 _"Arslan-Ai is not just a bot, it's an experience."_  
-✨ _Designed with 💙 by ArslanMD_
-🔍 _Use the commands below to explore the magic🪄._
-
+✨ _Designed with 💙 by lyrical tech 
 ━━━━━━━━━━━━━━━
 > 📌*COMMAND MENU*
 ━━━━━━━━━━━━━━━
-
-╭─🌐 *GENERAL ZONE*
+╭─🌐 *kremline ZONE*
 │ 🌐 .help  
 │ 📡 .ping  
 │ ⚡ .alive  
@@ -40,8 +35,7 @@ async function helpCommand(sock, chatId, message) {
 │ 🖼️ .ss  
 │ 🆔 .jid  
 ╰──────────────
-
-╭─🛡️ *GROUP GUARD*
+╭─🛡️ *GROUP mode*
 │ 🚫 .ban  
 │ 🔺 .promote  
 │ 🔻 .demote  
@@ -60,9 +54,9 @@ async function helpCommand(sock, chatId, message) {
 │ 🔁 .resetlink  
 │ 👋 .welcome  
 │ 🥀 .goodbye  
-╰──────────────
+╰─────────────
 
-╭─🔒 *OWNER PANEL*
+╭─🔒 *lyrical*
 │ 🛠️ .mode  
 │ 📶 .autostatus  
 │ 🧼 .clearsession  
@@ -71,8 +65,7 @@ async function helpCommand(sock, chatId, message) {
 │ 🖼 .setpp  
 │ ❤️ .autoreact  
 ╰──────────────
-
-╭─🎨 *STICKER TOOLS*
+╭─🎨 *OOLS*
 │ 🌀 .blur  
 │ 🖼️ .simage  
 │ 🪄 .sticker  
@@ -81,8 +74,7 @@ async function helpCommand(sock, chatId, message) {
 │ 🏷️ .take  
 │ 😎 .emojimix  
 ╰──────────────
-
-╭─🎮 *GAME ROOM*
+╭─🎮 *GAME zone*
 │ ❌⭕ .tictactoe  
 │ 💀 .hangman  
 │ 🔤 .guess  
@@ -91,14 +83,12 @@ async function helpCommand(sock, chatId, message) {
 │ 🔍 .truth  
 │ 🔥 .dare  
 ╰──────────────
-
-╭─🧠 *AI POWER*
+╭─🧠 *AI *
 │ 🤖 .gpt  
 │ 🧠 .gemini  
 │ 🎨 .imagine  
 │ 🌌 .flux  
 ╰──────────────
-
 ╭─🎉 *FUN ZONE*
 │ 💘 .compliment  
 │ 🤬 .insult  
@@ -112,8 +102,7 @@ async function helpCommand(sock, chatId, message) {
 │ 🤤 .simp  
 │ 🤡 .stupid  
 ╰──────────────
-
-╭─✍️ *TEXT MAKER*
+╭─✍️ *logo*
 │ 💎 .metallic  
 │ 🧊 .ice  
 │ ❄️ .snow  
@@ -133,7 +122,6 @@ async function helpCommand(sock, chatId, message) {
 │ 💥 .glitch  
 │ 🔥 .fire  
 ╰──────────────
-
 ╭─📥 *MEDIA ZONE*
 │ 🎧 .play  
 │ 🎵 .song  
@@ -143,8 +131,7 @@ async function helpCommand(sock, chatId, message) {
 │ 📘 .facebook  
 │ 🎞️ .tiktok  
 ╰──────────────
-
-╭─💻 *GITHUB CORNER*
+╭─💻 *GITHUBER*
 │ 🖥️ .git  
 │ 📂 .github  
 │ 🧠 .sc  
@@ -165,7 +152,7 @@ async function helpCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: 'Arslan-Ai',
+                        newsletterName: 'lyrical-xmd',
                         serverMessageId: -1
                     }
                 }
@@ -178,7 +165,7 @@ async function helpCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363348739987203@newsletter',
-                        newsletterName: 'Arslan-Ai by ArslanMD Official',
+                        newsletterName: 'lyrical xmd by lyrical Official',
                         serverMessageId: -1
                     }
                 }
